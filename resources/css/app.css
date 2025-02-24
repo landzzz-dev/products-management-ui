@@ -1,0 +1,24 @@
+.v-row .v-col {
+    padding-bottom: 12px !important;
+}
+
+.v-table th {
+    background-color: var(--th-bg) !important;
+    border-right: var(--th-border-right) !important;
+    justify-items: center !important;
+    font-weight: bold !important;
+}
+
+.v-table th:last-child {
+    border-right: 1px solid var(--th-bg) !important;
+}
+
+.v-table tr:nth-child(even) {
+    background-color: #EEEEEE !important;
+}
+
+.v-overlay__content {
+    justify-items: center !important;
+    padding: 12px !important;
+    width: 100% !important;
+}
